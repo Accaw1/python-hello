@@ -1,3 +1,26 @@
+# Todo List CLI
+
+A lightweight command-line tool for operations coordinators to track daily tasks between shifts. Standard library only.
+
+## Usage
+
+```bash
+$ python main.py
+```
+
+Menu options:
+
+1. **Add one task** – type a title; add as many as you need in the same run.
+2. **Delete a task** – shows the list, then removes the task at the number you enter.
+3. **Print the current list of tasks** – numbered from 1.
+4. **Save the todos to todos.csv** – writes one task per row (CSV-quoted, so commas/quotes are safe).
+5. **Load todos from todos.csv** – replaces the in-memory list with the saved tasks.
+6. **Exit**
+
+Editing tasks is out of scope: delete and recreate instead.
+
+---
+
 # Python Hello
 
 The most basic boilerplate to start a Python project at 4Geeks is to start your very first Python project from scratch.
